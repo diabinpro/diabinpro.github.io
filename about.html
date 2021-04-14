@@ -7,11 +7,11 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-     <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="content content--light">
+    <div class="content content--@@theme">
       <header class="header">
         <div class="container">
           <div class="header__content">
@@ -76,17 +76,17 @@
               >
                 <path
                   d="M40 19C38.6667 19 12.7778 19 -1.90735e-06 19"
-                  stroke="#434449"
+                  stroke="currentcolor"
                   stroke-width="2"
                 />
                 <path
                   d="M40 10C38.6667 10 12.7778 10 -1.90735e-06 10"
-                  stroke="#434449"
+                  stroke="currentcolor"
                   stroke-width="2"
                 />
                 <path
                   d="M40 1C38.6667 1 12.7778 1 -1.90735e-06 1"
-                  stroke="#434449"
+                  stroke="currentcolor"
                   stroke-width="2"
                 />
               </svg>
@@ -144,12 +144,12 @@
                   >
                     <path
                       d="M1 1L16.9986 17"
-                      stroke="#434449"
+                      stroke="currentcolor"
                       stroke-width="1.5"
                     />
                     <path
                       d="M17 1L1.00142 17"
-                      stroke="#434449"
+                      stroke="currentcolor"
                       stroke-width="1.5"
                     />
                   </svg>
@@ -253,12 +253,12 @@
   </div>
 </div>
 
-<section class="section page-about__section text">
+<section class="section page-about__section page-about__text">
   <div class="container">
     <h1 class="page__title">О компании</h1>
 
-    <div class="text__2-col text__2-col_v--center">
-      <div class="row">
+    <div class="page-about__text__2-col">
+      <div class="row align-items-center">
         <div class="col-md-6">
           <div class="about-us__text mt-0">
             <p>
@@ -279,7 +279,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="./img/about-us.jpg" class="text__2-col__img" alt="" />
+          <img src="./img/about-us.jpg" class="page-about__text__2-col__img" alt="" />
         </div>
       </div>
     </div>
@@ -1085,7 +1085,11 @@
 </section>
 
   </div>
-<script src="./js/main.js"></script>
+
+  
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=1f5c2efa-139a-49c6-a129-b7c486664b67" type="text/javascript"></script>
+  <!--<script src="/js/vendor.min.js"></script>-->
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
