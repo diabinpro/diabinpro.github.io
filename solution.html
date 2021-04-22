@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/main.css" />-->
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+    <style type="text/css">
+      .content--colored .header,
+      .content--colored .article__colored,
+      .content--colored .breadcrumbs {
+        background-color: #ee6a20;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content content--@@theme">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <a href="#" class="header__logo">
+              <img src="./img/IPL_Logo.png" alt="" />
+              <img
+                class="header__logo--colored"
+                src="./img/logo--w.png"
+                alt=""
+              />
+            </a>
+
+            <nav class="header__menu">
+              <ul class="header__menu__list">
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >Решения</a
+                  >
+                </li>
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >Услуги</a
+                  >
+                </li>
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >Продукты</a
+                  >
+                </li>
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >О компании</a
+                  >
+                </li>
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >Клиенты</a
+                  >
+                </li>
+                <li class="header__menu__item">
+                  <a
+                    href="#"
+                    class="header__menu__link link-animation before after"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <div class="header__menu__label">
+              <svg
+                width="40"
+                height="20"
+                viewBox="0 0 40 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M40 19C38.6667 19 12.7778 19 -1.90735e-06 19"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M40 10C38.6667 10 12.7778 10 -1.90735e-06 10"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M40 1C38.6667 1 12.7778 1 -1.90735e-06 1"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+
+            <div class="header__right">
+              <a class="header__phone" href="tel:+7 (499) 333-33-33"
+                >+7 (499) 333-33-33</a
+              >
+
+              <a class="header__btn" href="#">Заказать звонок</a>
+
+              <div class="header__lang-select__wrap">
+                <ul class="header__lang-select header--circle">
+                  <li><a href="/ru" class="active-ln">RU</a></li>
+                  <li><a href="/en">EN</a></li>
+                </ul>
+              </div>
+
+              <div class="header__search__btn header--circle">
+                <svg
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.1 8.8C17.1 10.9261 16.3013 12.8645 14.9867 14.3332C13.4662 16.032 11.2581 17.1 8.8 17.1C4.21604 17.1 0.5 13.384 0.5 8.8C0.5 4.21604 4.21604 0.5 8.8 0.5C13.384 0.5 17.1 4.21604 17.1 8.8Z"
+                    stroke="currentcolor"
+                  />
+                  <path
+                    d="M14.3008 14.2998L22.0008 21.9998"
+                    stroke="currentcolor"
+                  />
+                </svg>
+              </div>
+
+              <form action="send.php" class="header__search">
+                <input
+                  type="text"
+                  class="header__search__input"
+                  id="identNum"
+                  placeholder="Искать"
+                  required
+                />
+
+                <div class="header__search__close">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L16.9986 17"
+                      stroke="currentcolor"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M17 1L1.00142 17"
+                      stroke="currentcolor"
+                      stroke-width="1.5"
+                    />
+                  </svg>
+                </div>
+                <button type="submit" class="d-none"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+<div class="breadcrumbs">
+  <div class="container">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+      <li class="breadcrumbs__item"><a href="#">Решения</a></li>
+      <li class="breadcrumbs__item breadcrumbs__item--active">
+        Производство машин и оборудования
+      </li>
+    </ul>
+  </div>
+</div>
+
+<section class="section article__section service-page service-page__w-image" style="background-image:url(./img/robot-hand.png)">
+  <div class="container">
+    <h1 class="page__title">Производство машин<br>и оборудования</h1>
+
+    <div class="article__featured">
+      <div class="article__featured__title">
+        <a href="#">IPL Consulting</a> помогает предприятиям повысить эффективность управления
+        бизнесом и предлагает полный спектр услуг по созданию единой
+        информационной системы на базе продуктов и решений компании <a href="#">Infor</a>.
+      </div>
+      <div class="article__featured__text">
+        <h2>Title H2</h2>
+        <p>
+          Infor EAM будет интегрировано с существующей ERP-системой Bayer, это
+          позволит сотрудникам компании управлять жизненным циклом всего
+          оборудования, используемого на производстве. При отклонении от
+          нормального режима работы конкретная единица оборудования будет
+          немедленно отмечаться как нуждающаяся в профилактическом обслуживании.
+          Таким образом удастся избежать поломок на производственной линии и
+          сократить издержки, связанные с остановкой производства.
+        </p>
+        <p>
+          Infor EAM будет интегрировано с существующей ERP-системой Bayer, это
+          позволит сотрудникам компании управлять жизненным циклом всего
+          оборудования, используемого на производстве. При отклонении от
+          нормального режима работы конкретная единица оборудования будет
+          немедленно отмечаться как нуждающаяся в профилактическом обслуживании.
+          Таким образом удастся избежать поломок на производственной линии и
+          сократить издержки, связанные с остановкой производства.
+        </p>
+      </div>
+    </div>
+
+    <div class="article__text">
+      <div class="article__services">
+        <h2>Мы представляем комплексные решения, основанные на лучших в своем классе приложениях Infor</h2>
+        <ul class="article__services__list">
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor LN</strong> — управление ресурсами предприятия ERP</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor SCM</strong> — управление цепочками поставок</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor Warehouse Management System</strong> — управление складами</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor d/EPM</strong> — управление показателями деятельности, бюджетирование</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor Automotive Exchange</strong> — взаимодействие с контрагентами в автомобильной отрасли</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li class="article__services__item">
+            <a href="#" class="article__services__link more-link">
+              <span><strong>Infor ION</strong> — платформа для интеграции и управления приложениями </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="#434449"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Общее машиностроение</h2>
+      <ul>
+        <li>Послепродажное обслуживание и сервис</li>
+        <li>Reverse Logistics — возврат брака поставщикам и соответствующей продукции от потребителя</li>
+        <li>Handling Units — управление тарой и упаковкой</li>
+        <li>Multi-site & Multi-currency — поддержка географической распределенной структуры и мультивалютность</li>
+        <li>Customer Managed Inventory — запасы, управляемые потребителем</li>
+        <li>Order pegging — привязка закупаемых компонентов к конечному изделию</li>
+      </ul>
+      <p>
+        Infor EAM будет интегрировано с существующей ERP-системой Bayer, это
+        позволит сотрудникам компании управлять жизненным циклом всего
+        оборудования, используемого на производстве. При отклонении от
+        нормального режима работы конкретная единица оборудования будет
+        немедленно отмечаться как нуждающаяся в профилактическом обслуживании.
+        Таким образом удастся избежать поломок на производственной линии и
+        сократить издержки, связанные с остановкой производства.
+      </p>
+
+      <div class="article__images">
+        <div class="wide"><img src="/img/article-image-1.jpg" alt="" /></div>
+        <div class="regular"><img src="/img/article-image-2.jpg" alt="" /></div>
+        <div class="regular"><img src="/img/article-image-3.jpg" alt="" /></div>
+      </div>
+
+      <div class="article__slider">
+        <div class="article__slider__wrapper">
+          <div class="swiper-images">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  href="./img/slide1.jpg"
+                  data-fancybox="slider"
+                  data-caption="Автопроизводство"
+                >
+                  <img
+                    class="article__slider__image"
+                    src="./img/slide1.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="article__slider__caption">Автопроизводство</div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="./img/slide2.jpg"
+                  data-fancybox="slider"
+                  data-caption="Авиапромышленность"
+                >
+                  <img
+                    class="article__slider__image"
+                    src="./img/slide2.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="article__slider__caption">Авиапромышленность</div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="./img/slide3.jpg"
+                  data-fancybox="slider"
+                  data-caption="Металлургия"
+                >
+                  <img
+                    class="article__slider__image"
+                    src="./img/slide3.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="article__slider__caption">Металлургия</div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="./img/slide2.jpg"
+                  data-fancybox="slider"
+                  data-caption="Авиапромышленность"
+                >
+                  <img
+                    class="article__slider__image"
+                    src="./img/slide2.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="article__slider__caption">Авиапромышленность</div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="./img/slide3.jpg"
+                  data-fancybox="slider"
+                  data-caption="Металлургия"
+                >
+                  <img
+                    class="article__slider__image"
+                    src="./img/slide3.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="article__slider__caption">Металлургия</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="article__slider__nav">
+          <div class="swiper-button swiper-button-prev-c">
+            <svg
+              width="37"
+              height="13"
+              viewBox="0 0 37 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M37 6.5H2M2 6.5L7.42254 1M2 6.5L7.42254 12"
+                stroke="currentcolor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </div>
+          <div class="swiper-button swiper-button-next-c">
+            <svg
+              width="37"
+              height="13"
+              viewBox="0 0 37 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 6.5H35M35 6.5L29.5775 1M35 6.5L29.5775 12"
+                stroke="currentcolor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <video
+        class="article__video"
+        src="./img/sample-mp4-file.mp4"
+        poster="./img/video-poster.png"
+        controls
+      ></video>
+
+      <div class="article__bq-image">
+        <div class="article__bq-image__content">
+          <div class="article__bq-image__text">
+            <p>
+              Любое крупное производственное предприятие подвергается высокому
+              риску, когда оборудование выходит из строя. Современные системы
+              управления производством снижают подобные риски, вовремя
+              предоставляя необходимую информацию и обеспечивая, таким образом,
+              большую прозрачность в плане оперативного принятия решений.
+            </p>
+            <p>
+              Надежная EAM-система ускоряет решение проблем, сводит к минимуму
+              время простоя и затраты на техническое обслуживание.
+            </p>
+          </div>
+          <div class="article__bq-image__author">
+            <div class="article__bq-image__name">Майкл Лекс</div>
+            <div class="article__bq-image__pos">
+              Руководитель команды RODIAS и проекта Bayer
+            </div>
+          </div>
+        </div>
+        <div class="article__bq-image__avatar__wrapper">
+          <img
+            class="article__bq-image__avatar"
+            src="./img/avatar.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <h2 class="sidebar__title">Решения</h2>
+
+      <div class="swiper-mobile solutions__tiles">
+  <div class="tiles-grid tiles-grid--2 swiper-wrapper">
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-1.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-1.svg" alt="" />
+            <div class="card__title">
+              Авиакосмическая<br />и оборонная промышленность
+            </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/dir4.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-2.svg" alt="" />
+            <div class="card__title">
+              Производство машин<br />и оборудования
+            </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-3.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-3.svg" alt="" />
+            <div class="card__title">
+              Судостроение<br />и тяжелое машиностроение
+            </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-4.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-4.svg" alt="" />
+            <div class="card__title">Приборостроение</div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="swiper-mobile-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contacts__section">
+  <div class="container">
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">YouTube</a>
+    </div>
+
+    <div class="footer-links">
+      <p class="copy">© 2021 IPL Consulting все права защищены</p>
+      <a class="sitemap" href="#">Карта сайта</a>
+      <a class="policy" href="#">Политика конфиденциальности</a>
+    </div>
+  </div>
+</section>
+  </div>
+
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=1f5c2efa-139a-49c6-a129-b7c486664b67" type="text/javascript"></script>
+  <!--<script src="/js/vendor.min.js"></script>-->
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
+

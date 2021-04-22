@@ -7,17 +7,31 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/main.css" />-->
     <link rel="stylesheet" href="./css/style.min.css" />
     <title>Document</title>
+    <style type="text/css">
+      .content--colored .header,
+      .content--colored .article__colored,
+      .content--colored .breadcrumbs {
+        background-color: #ee6a20;
+      }
+    </style>
   </head>
   <body>
     <div class="content content--@@theme">
       <header class="header">
         <div class="container">
           <div class="header__content">
-            <a href="#" class="header__logo"
-              ><img src="./img/IPL_Logo_w.png" alt=""
-            /></a>
+            <a href="#" class="header__logo">
+              <img src="./img/IPL_Logo.png" alt="" />
+              <img
+                class="header__logo--colored"
+                src="./img/logo--w.png"
+                alt=""
+              />
+            </a>
 
             <nav class="header__menu">
               <ul class="header__menu__list">
@@ -716,203 +730,203 @@
     </p>
 
     <div class="swiper-mobile solutions__tiles">
-      <div class="tiles-grid tiles-grid--2 swiper-wrapper">
-        <div class="tiles-grid__item swiper-slide">
-          <a href="#">
-            <div class="card__item card__item_color--grey">
-              <img class="card__img" src="./img/sol-1.png" alt="" />
+  <div class="tiles-grid tiles-grid--2 swiper-wrapper">
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-1.png" alt="" />
 
-              <div class="card__content">
-                <img class="card__ic" src="./img/sol-ic-1.svg" alt="" />
-                <div class="card__title">
-                  Авиакосмическая<br />и оборонная промышленность
-                </div>
-                <div class="more-link">
-                  <span>Подробнее</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="67"
-                    height="45"
-                    viewBox="0 0 67 45"
-                    fill="none"
-                  >
-                    <path
-                      class="circle"
-                      d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="circle-active"
-                      xmlns="http://www.w3.org/2000/svg"
-                      d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="arrow"
-                      d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                    />
-                  </svg>
-                </div>
-              </div>
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-1.svg" alt="" />
+            <div class="card__title">
+              Авиакосмическая<br />и оборонная промышленность
             </div>
-          </a>
-        </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
 
-        <div class="tiles-grid__item swiper-slide">
-          <a href="#">
-            <div class="card__item card__item_color--grey">
-              <img class="card__img" src="./img/dir4.png" alt="" />
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
 
-              <div class="card__content">
-                <img class="card__ic" src="./img/sol-ic-2.svg" alt="" />
-                <div class="card__title">
-                  Производство машин<br />и оборудования
-                </div>
-                <div class="more-link">
-                  <span>Подробнее</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="67"
-                    height="45"
-                    viewBox="0 0 67 45"
-                    fill="none"
-                  >
-                    <path
-                      class="circle"
-                      d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="circle-active"
-                      xmlns="http://www.w3.org/2000/svg"
-                      d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="arrow"
-                      d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                    />
-                  </svg>
-                </div>
-              </div>
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
             </div>
-          </a>
+          </div>
         </div>
-
-        <div class="tiles-grid__item swiper-slide">
-          <a href="#">
-            <div class="card__item card__item_color--grey">
-              <img class="card__img" src="./img/sol-3.png" alt="" />
-
-              <div class="card__content">
-                <img class="card__ic" src="./img/sol-ic-3.svg" alt="" />
-                <div class="card__title">
-                  Судостроение<br />и тяжелое машиностроение
-                </div>
-                <div class="more-link">
-                  <span>Подробнее</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="67"
-                    height="45"
-                    viewBox="0 0 67 45"
-                    fill="none"
-                  >
-                    <path
-                      class="circle"
-                      d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="circle-active"
-                      xmlns="http://www.w3.org/2000/svg"
-                      d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="arrow"
-                      d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="tiles-grid__item swiper-slide">
-          <a href="#">
-            <div class="card__item card__item_color--grey">
-              <img class="card__img" src="./img/sol-4.png" alt="" />
-
-              <div class="card__content">
-                <img class="card__ic" src="./img/sol-ic-4.svg" alt="" />
-                <div class="card__title">Приборостроение</div>
-                <div class="more-link">
-                  <span>Подробнее</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="67"
-                    height="45"
-                    viewBox="0 0 67 45"
-                    fill="none"
-                  >
-                    <path
-                      class="circle"
-                      d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="circle-active"
-                      xmlns="http://www.w3.org/2000/svg"
-                      d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
-                      stroke="currentcolor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                    />
-
-                    <path
-                      class="arrow"
-                      d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+      </a>
     </div>
-    <div class="swiper-mobile-pagination"></div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/dir4.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-2.svg" alt="" />
+            <div class="card__title">
+              Производство машин<br />и оборудования
+            </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-3.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-3.svg" alt="" />
+            <div class="card__title">
+              Судостроение<br />и тяжелое машиностроение
+            </div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="tiles-grid__item swiper-slide">
+      <a href="#">
+        <div class="card__item card__item_color--grey">
+          <img class="card__img" src="./img/sol-4.png" alt="" />
+
+          <div class="card__content">
+            <img class="card__ic" src="./img/sol-ic-4.svg" alt="" />
+            <div class="card__title">Приборостроение</div>
+            <div class="more-link">
+              <span>Подробнее</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="67"
+                height="45"
+                viewBox="0 0 67 45"
+                fill="none"
+              >
+                <path
+                  class="circle"
+                  d="M28.0508 10.6687C31.8381 5.31397 38.0632 1.82031 45.1005 1.82031C56.6433 1.82031 66.0006 11.2191 66.0006 22.8132C66.0006 34.4073 56.6433 43.8061 45.1005 43.8061C38.0632 43.8061 31.8381 40.3124 28.0508 34.9577"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="circle-active"
+                  xmlns="http://www.w3.org/2000/svg"
+                  d="M28.0508 10.6434C31.8381 5.28858 38.0632 1.79492 45.1006 1.79492C52.138 1.79492 58.363 5.28858 62.1503 10.6434M28.0508 34.9323C31.8381 40.2871 38.0632 43.7808 45.1006 43.7808C52.138 43.7808 58.363 40.2871 62.1503 34.9323"
+                  stroke="currentcolor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  class="arrow"
+                  d="M48.4 23.3659L42.2648 17.2891M48.4 23.3659L42.2648 29.4427M48.4 23.3659H0"
+                  stroke="currentcolor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="swiper-mobile-pagination"></div>
   </div>
 </section>
 
@@ -1663,10 +1677,9 @@
       <a class="policy" href="#">Политика конфиденциальности</a>
     </div>
   </div>
-</section>
-  </div>
+</section>   </div>
 
-  
+
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=1f5c2efa-139a-49c6-a129-b7c486664b67" type="text/javascript"></script>
   <!--<script src="/js/vendor.min.js"></script>-->
   <script src="./js/main.js"></script>
