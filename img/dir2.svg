@@ -1,11 +1,1 @@
-<svg width="55" height="61" viewBox="0 0 55 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="4" width="24" height="24" rx="1" stroke="white" stroke-width="1.5"/>
-<path d="M4 2C4 1.44772 4.44772 1 5 1H10C10.5523 1 11 1.44772 11 2V4H4V2Z" stroke="white" stroke-width="1.5"/>
-<path d="M9 36C9 35.4477 9.44772 35 10 35H15C15.5523 35 16 35.4477 16 36V38H9V36Z" stroke="white" stroke-width="1.5"/>
-<path d="M33 12C33 11.4477 33.4477 11 34 11H39C39.5523 11 40 11.4477 40 12V14H33V12Z" stroke="white" stroke-width="1.5"/>
-<path d="M15 2C15 1.44772 15.4477 1 16 1H21C21.5523 1 22 1.44772 22 2V4H15V2Z" stroke="white" stroke-width="1.5"/>
-<path d="M20 36C20 35.4477 20.4477 35 21 35H26C26.5523 35 27 35.4477 27 36V38H20V36Z" stroke="white" stroke-width="1.5"/>
-<path d="M44 12C44 11.4477 44.4477 11 45 11H50C50.5523 11 51 11.4477 51 12V14H44V12Z" stroke="white" stroke-width="1.5"/>
-<path d="M30 15C30 14.4477 30.4477 14 31 14H53C53.5523 14 54 14.4477 54 15V38H30V15Z" stroke="white" stroke-width="1.5"/>
-<rect x="6" y="38" width="48" height="22" rx="1" stroke="white" stroke-width="1.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="61" fill="none" viewBox="0 0 55 61"><rect width="24" height="24" x="1" y="4" stroke="#fff" stroke-width="1.5" rx="1"/><path stroke="#fff" stroke-width="1.5" d="M4 2C4 1.44772 4.44772 1 5 1H10C10.5523 1 11 1.44772 11 2V4H4V2Z"/><path stroke="#fff" stroke-width="1.5" d="M9 36C9 35.4477 9.44772 35 10 35H15C15.5523 35 16 35.4477 16 36V38H9V36Z"/><path stroke="#fff" stroke-width="1.5" d="M33 12C33 11.4477 33.4477 11 34 11H39C39.5523 11 40 11.4477 40 12V14H33V12Z"/><path stroke="#fff" stroke-width="1.5" d="M15 2C15 1.44772 15.4477 1 16 1H21C21.5523 1 22 1.44772 22 2V4H15V2Z"/><path stroke="#fff" stroke-width="1.5" d="M20 36C20 35.4477 20.4477 35 21 35H26C26.5523 35 27 35.4477 27 36V38H20V36Z"/><path stroke="#fff" stroke-width="1.5" d="M44 12C44 11.4477 44.4477 11 45 11H50C50.5523 11 51 11.4477 51 12V14H44V12Z"/><path stroke="#fff" stroke-width="1.5" d="M30 15C30 14.4477 30.4477 14 31 14H53C53.5523 14 54 14.4477 54 15V38H30V15Z"/><rect width="48" height="22" x="6" y="38" stroke="#fff" stroke-width="1.5" rx="1"/></svg>
